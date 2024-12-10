@@ -1,0 +1,9 @@
+[package]
+name = "Graphs_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+graphrs = "0.11.1"
+hypergraph = "2.2.0"
+petgraph = "0.6.5"
