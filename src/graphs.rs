@@ -1,13 +1,9 @@
-#[allow(dead_code, unused_imports)]
-mod graphs;
-
 // use petgraph::graph::UnGraph;
 // use petgraph::graphmap::{DiGraphMap};
 use graphrs::{Edge, Graph, GraphSpecs, Node};
 // use petgraph::visit::EdgeCount;
-// use petgraph::algo::tarjan_scc;
 
-fn main() {
+pub fn graphs() {
     // // Directed graph
     // let mut g = DiGraphMap::<&str, i32>::new();
     // g.add_node("a");
